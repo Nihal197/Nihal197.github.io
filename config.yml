@@ -82,8 +82,8 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/nihalsingh197/"
-    - name: twitter
-      url: "https://twitter.com/Grey_197_"
+#     - name: twitter
+#       url: "https://twitter.com/Grey_197_"
     
     # - name: github
     #   url: "https://github.com/"
