@@ -47,15 +47,15 @@ s = pd.Series(data, index = index)
 `data` can be any of the three things- It can be a dict, or an ndarry (numpy array), or simply a value (10). `index` is axis labels. Example will make it clear.
 
 ```
-In [1]: s = pd.Series(np.random.randn(5), index=["a", "b", "c", "d", "e"]) #examples taken from the documentation directly
+In [1]: d = {"b": 1, "a": 0, "c": 2} #examples taken from the documentation itself, so feel free to checkout more 
+
+In [2]: pd.Series(d)
 
 Out[2]: 
-a    0.469112
-b   -0.282863
-c   -1.509059
-d   -1.135632
-e    1.212112
-dtype: float64
+b    1
+a    0
+c    2
+dtype: int64
 ```
 
 
